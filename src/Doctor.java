@@ -2,11 +2,21 @@ public class Doctor {
     private String name;
     private String specialization;
     private int experience;
+    private int age;
 
-    public Doctor(String name, String specialization, int experience) {
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Doctor(String name, String specialization, int experience, int age) {
         this.name = name;
         this.specialization = specialization;
         this.experience = experience;
+        this.age = age;
     }
 
     public String getName() {
