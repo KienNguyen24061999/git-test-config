@@ -1,7 +1,7 @@
 public class Doctor {
     private String name;
     private String specialization;
-    private int experience;
+    private int experience1234;
     private int age;
 
     public int getAge() {
@@ -15,7 +15,7 @@ public class Doctor {
     public Doctor(String name, String specialization, int experience, int age) {
         this.name = name;
         this.specialization = specialization;
-        this.experience = experience;
+        this.experience1234 = experience;
         this.age = age;
     }
 
@@ -36,10 +36,10 @@ public class Doctor {
     }
 
     public int getExperience() {
-        return experience;
+        return experience1234;
     }
 
     public void setExperience(int experience) {
-        this.experience = experience;
+        this.experience1234 = experience;
     }
 }
